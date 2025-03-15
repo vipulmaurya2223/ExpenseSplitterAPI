@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ExpenseSplitterAPI.Models;
+using BatchWebApi.Models;
 
 namespace ExpenseSplitterAPI.Data
 {
@@ -10,7 +11,8 @@ namespace ExpenseSplitterAPI.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Group> Groups { get; set; }
         public DbSet<Expense> Expenses { get; set; }
-        public DbSet<GroupUser> GroupUsers { get; set; } // ✅ Add GroupUsers table
+        public DbSet<GroupUser> GroupUsers { get; set; }
+        public DbSet<Role> Roles { get; set; }// ✅ Add GroupUsers table
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
