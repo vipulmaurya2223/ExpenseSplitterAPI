@@ -172,4 +172,3 @@ C:\Users\Vipul Maurya\source\repos\ExpenseSplitterAPI\ExpenseSplitterAPI\obj\Deb
 C:\Users\Vipul Maurya\source\repos\ExpenseSplitterAPI\ExpenseSplitterAPI\obj\Debug\net8.0\ExpenseSplitterAPI.pdb
 C:\Users\Vipul Maurya\source\repos\ExpenseSplitterAPI\ExpenseSplitterAPI\obj\Debug\net8.0\ExpenseSplitterAPI.genruntimeconfig.cache
 C:\Users\Vipul Maurya\source\repos\ExpenseSplitterAPI\ExpenseSplitterAPI\obj\Debug\net8.0\ref\ExpenseSplitterAPI.dll
-C:\Users\Vipul Maurya\source\repos\ExpenseSplitterAPI\ExpenseSplitterAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

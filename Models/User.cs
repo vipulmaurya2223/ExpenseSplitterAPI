@@ -1,7 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Collections.Generic;
-using BatchWebApi.Models;
+using System.Text.Json.Serialization;
+using BatchWebApi.Models; // 👈 Fix circular reference
 
 namespace ExpenseSplitterAPI.Models
 {
@@ -19,13 +20,16 @@ namespace ExpenseSplitterAPI.Models
         public string Email { get; set; } = string.Empty;
 
         [Required]
-        public string PasswordHash { get; set; } = string.Empty;
+        [Column("PasswordHash")] // 👈 Maps to DB column
+        public string Password { get; set; } = string.Empty;
 
         public int RoleId { get; set; }
 
         [ForeignKey(nameof(RoleId))]
+        [JsonIgnore] // 👈 Prevents circular reference
         public Role? Role { get; set; }
 
+        [JsonIgnore] // 👈 Prevents circular reference
         public ICollection<GroupUser>? GroupUsers { get; set; }
     }
 }
