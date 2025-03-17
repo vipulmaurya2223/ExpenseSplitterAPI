@@ -8,6 +8,7 @@ C:\Users\Vipul Maurya\source\repos\ExpenseSplitterAPI\ExpenseSplitterAPI\bin\Deb
 C:\Users\Vipul Maurya\source\repos\ExpenseSplitterAPI\ExpenseSplitterAPI\bin\Debug\net8.0\ExpenseSplitterAPI.pdb
 C:\Users\Vipul Maurya\source\repos\ExpenseSplitterAPI\ExpenseSplitterAPI\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Vipul Maurya\source\repos\ExpenseSplitterAPI\ExpenseSplitterAPI\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Vipul Maurya\source\repos\ExpenseSplitterAPI\ExpenseSplitterAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\Vipul Maurya\source\repos\ExpenseSplitterAPI\ExpenseSplitterAPI\bin\Debug\net8.0\Humanizer.dll
 C:\Users\Vipul Maurya\source\repos\ExpenseSplitterAPI\ExpenseSplitterAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Vipul Maurya\source\repos\ExpenseSplitterAPI\ExpenseSplitterAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
